@@ -36,6 +36,10 @@ const config: Config = {
           changefreq: 'weekly',
           priority: 0.5,
         },
+        gtag: {
+          trackingID: 'G-7PCKSQZDZ8',
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
     ],
   ],
